@@ -1,0 +1,55 @@
+.today-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b9d7ea80;
+    border-radius: 12px;
+    font-weight: 500;
+    max-width: max-content;margin: auto;
+    margin-top: 10px;
+    padding: 0 50px 20px 50px;
+    color: #F7FBFC;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 255, .2);
+}
+
+img.weather-icon {
+    width: 100px;
+}
+
+.weather-location  {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.weather-temp{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.date-time {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.min-max-celcius {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+.min-max-celcius span {
+    margin: 0 10px;
+}
+
+.weather-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    gap: 30px;
+}
+
+.weather-details img {    
+    width: 20px;
+}

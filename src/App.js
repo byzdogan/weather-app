@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import CityDropdown from './components/CityDropdown';
+import TodayWeather from './components/TodayWeather';
+import WeatherCard from './components/WeatherCard';
+import { WeatherProvider } from './contexts/WeatherContext';
 
 function App() {
+
+  // WeatherProvider is used for sharing datas between the components inside it
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <WeatherProvider>
+          <CityDropdown />
+          <TodayWeather />
+          <WeatherCard />               
+      </WeatherProvider>     
     </div>
   );
 }

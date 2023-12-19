@@ -1,0 +1,42 @@
+.city-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #b9d7ea80;
+    box-shadow: 5px 5px 10px rgba(0, 0, 255, .2);
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #F7FBFC;
+    border: 1px solid #769FCD;
+    outline: none;
+    color: #769FCD;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+select:hover {
+    border: 2px solid #769FCD;
+}
+
+select::-webkit-scrollbar {
+    width: 10px;
+}
+
+select::-webkit-scrollbar-track {
+  background: #F7FBFC;  
+}
+  
+select::-webkit-scrollbar-thumb {
+    background-color: #769FCD;
+    border-radius: 12px;  
+}

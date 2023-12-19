@@ -1,0 +1,46 @@
+.weekly-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.weather-card {
+    display: flex;
+    flex: 0 0 calc(100% / 3);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #b9d7ea80;
+    border-radius: 12px;
+    font-weight: 300;
+    max-width: max-content;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    color: #F7FBFC;   
+    box-shadow: 5px 5px 10px rgba(0, 0, 255, .2);
+}
+
+.icon-card {
+    width: 30px;
+}
+
+.card-temp{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.date {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.min-max-temp {
+    font-size: 15px;
+}
+
+.min-max-temp span {
+    margin: 0 10px;
+}
