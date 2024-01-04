@@ -5,7 +5,7 @@ const WeatherContext = createContext()
 const WeatherProvider = ({children}) => {
 
     // unique API key
-    const API_KEY = '39fdb9cec9aa48acb28224923231812'
+    const API_KEY = process.env.REACT_APP_WEATHER_API_KEY
     
 
     // to create variables on Context API to share them with associated components
