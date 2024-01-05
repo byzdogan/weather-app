@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import '../styles/city-dropdown.css'
 import { useWeather } from '../contexts/WeatherContext'
 

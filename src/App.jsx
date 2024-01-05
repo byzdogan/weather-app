@@ -1,7 +1,8 @@
 import './App.css';
-import CityDropdown from './components/CityDropdown';
+import React from 'react';
 import TodayWeather from './components/TodayWeather';
 import WeatherCard from './components/WeatherCard';
+import CityDropdown from './components/CityDropdown'
 import { WeatherProvider } from './contexts/WeatherContext';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <WeatherProvider>
           <CityDropdown />
           <TodayWeather />
-          <WeatherCard />               
+          <WeatherCard/>               
       </WeatherProvider>     
     </div>
   );

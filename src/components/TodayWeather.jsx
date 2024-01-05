@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import React from 'react'
 import windIcon from '../assets/weather-icons/wind.png'
 import humiIcon from '../assets/weather-icons/humidity.png'
 import '../styles/today-weather.css'
