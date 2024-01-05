@@ -17,7 +17,7 @@ const WeatherProvider = ({children}) => {
     // to fetch weather data then set wheatherData with the data
     const getCityWeather = async () => {
         try {
-            const url = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=7&aqi=yes&alerts=no`
+            const url = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=7&aqi=yes&alerts=no`
             const response = await fetch(url)
             const data = await response.json()
             console.log(data)
